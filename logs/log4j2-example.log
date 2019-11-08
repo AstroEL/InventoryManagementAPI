@@ -1,0 +1,224 @@
+2019-11-07 16:35:48.768  WARN Eve
+			--- [nio-8080-exec-2] o.s.w.s.PageNotFound                     : Request method 'POST' not supported
+2019-11-07 16:36:55.165  INFO Eve
+			--- [       Thread-2] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@704bfb3f: startup date [Thu Nov 07 15:43:03 MST 2019]; root of context hierarchy
+2019-11-07 16:42:26.308  INFO Eve
+			--- [ment.App.main()] c.l.i.App                                : Starting App on Eve with PID 13984 (C:\Users\leila\eclipse-workspace\inventoryManagement\target\classes started by leila in C:\Users\leila\eclipse-workspace\inventoryManagement)
+2019-11-07 16:42:26.403  INFO Eve
+			--- [ment.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3ae5d76b: startup date [Thu Nov 07 16:42:26 MST 2019]; root of context hierarchy
+2019-11-07 16:42:27.274  INFO Eve
+			--- [ment.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2019-11-07 16:42:27.838  INFO Eve
+			--- [ment.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2019-11-07 16:42:28.034  INFO Eve
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4219bc90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-07 16:42:28.068  INFO Eve
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-07 16:42:28.086  INFO Eve
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-07 16:42:28.094  INFO Eve
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-07 16:42:29.379  INFO Eve
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2019-11-07 16:42:29.742  INFO Eve
+			--- [ment.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2019-11-07 16:42:29.746  INFO Eve
+			--- [ment.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2019-11-07 16:42:30.350  INFO Eve
+			--- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-11-07 16:42:30.354  INFO Eve
+			--- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 3959 ms
+2019-11-07 16:42:31.187  INFO Eve
+			--- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2019-11-07 16:42:31.197  INFO Eve
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-11-07 16:42:31.198  INFO Eve
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-11-07 16:42:31.554  INFO Eve
+			--- [ment.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-11-07 16:42:31.573  INFO Eve
+			--- [ment.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-07 16:42:31.699  INFO Eve
+			--- [ment.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2019-11-07 16:42:31.705  INFO Eve
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2019-11-07 16:42:31.709  INFO Eve
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2019-11-07 16:42:31.983  INFO Eve
+			--- [ment.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2019-11-07 16:42:34.133  INFO Eve
+			--- [ment.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-07 16:42:34.445  INFO Eve
+			--- [ment.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2019-11-07 16:42:34.962  INFO Eve
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2019-11-07 16:42:36.929  INFO Eve
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2019-11-07 16:42:37.826  INFO Eve
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3ae5d76b: startup date [Thu Nov 07 16:42:26 MST 2019]; root of context hierarchy
+2019-11-07 16:42:37.967  INFO Eve
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ltanner.inventoryManagement.controller.CustomerController.getCustomer(java.lang.Long)
+2019-11-07 16:42:37.972  INFO Eve
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ltanner.inventoryManagement.controller.CustomerController.getCustomers()
+2019-11-07 16:42:37.975  INFO Eve
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ltanner.inventoryManagement.controller.CustomerController.updateCustomer(com.ltanner.inventoryManagement.entity.Customer,java.lang.Long)
+2019-11-07 16:42:37.978  INFO Eve
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ltanner.inventoryManagement.controller.CustomerController.deleteCustomer(java.lang.Long)
+2019-11-07 16:42:37.980  INFO Eve
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ltanner.inventoryManagement.controller.CustomerController.createCustomer(com.ltanner.inventoryManagement.entity.Customer,java.lang.Long)
+2019-11-07 16:42:37.984  INFO Eve
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ltanner.inventoryManagement.controller.OrderController.createCustomer(java.util.Set<java.lang.Long>,java.lang.Long)
+2019-11-07 16:42:37.993  INFO Eve
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders/{orderId}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ltanner.inventoryManagement.controller.OrderController.updateOrder(com.ltanner.inventoryManagement.entity.Order,java.lang.Long)
+2019-11-07 16:42:37.995  INFO Eve
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ltanner.inventoryManagement.controller.ProductController.createProduct(com.ltanner.inventoryManagement.entity.Product)
+2019-11-07 16:42:37.999  INFO Eve
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ltanner.inventoryManagement.controller.ProductController.deleteProduct(java.lang.Long)
+2019-11-07 16:42:38.006  INFO Eve
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ltanner.inventoryManagement.controller.ProductController.getProducts()
+2019-11-07 16:42:38.008  INFO Eve
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ltanner.inventoryManagement.controller.ProductController.updateProduct(com.ltanner.inventoryManagement.entity.Product,java.lang.Long)
+2019-11-07 16:42:38.012  INFO Eve
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-11-07 16:42:38.024  INFO Eve
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2019-11-07 16:42:38.063  INFO Eve
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-07 16:42:38.068  INFO Eve
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-07 16:42:38.122  INFO Eve
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-07 16:42:38.340  INFO Eve
+			--- [ment.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-11-07 16:42:38.392  INFO Eve
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-07 16:42:38.403  INFO Eve
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2019-11-07 16:42:38.437  INFO Eve
+			--- [ment.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2019-11-07 16:42:38.773  INFO Eve
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2019-11-07 16:42:38.781  INFO Eve
+			--- [ment.App.main()] c.l.i.App                                : Started App in 12.877 seconds (JVM running for 30.88)
+2019-11-07 16:43:24.696  INFO Eve
+			--- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-11-07 16:43:24.737  INFO Eve
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2019-11-07 16:43:24.809  INFO Eve
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 65 ms
+2019-11-07 16:49:40.601  WARN Eve
+			--- [io-8080-exec-10] o.s.w.s.PageNotFound                     : Request method 'PUT' not supported
+2019-11-07 16:52:14.964  INFO Eve
+			--- [       Thread-2] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3ae5d76b: startup date [Thu Nov 07 16:42:26 MST 2019]; root of context hierarchy
+2019-11-07 16:55:58.165  INFO Eve
+			--- [ment.App.main()] c.l.i.App                                : Starting App on Eve with PID 15028 (C:\Users\leila\eclipse-workspace\inventoryManagement\target\classes started by leila in C:\Users\leila\eclipse-workspace\inventoryManagement)
+2019-11-07 16:55:58.206  INFO Eve
+			--- [ment.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@21ee182a: startup date [Thu Nov 07 16:55:58 MST 2019]; root of context hierarchy
+2019-11-07 16:55:59.247  INFO Eve
+			--- [ment.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2019-11-07 16:55:59.746  INFO Eve
+			--- [ment.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2019-11-07 16:55:59.931  INFO Eve
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3b523db9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-07 16:55:59.966  INFO Eve
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-07 16:55:59.983  INFO Eve
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-07 16:55:59.994  INFO Eve
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-07 16:56:00.744  INFO Eve
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2019-11-07 16:56:01.013  INFO Eve
+			--- [ment.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2019-11-07 16:56:01.018  INFO Eve
+			--- [ment.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2019-11-07 16:56:01.246  INFO Eve
+			--- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-11-07 16:56:01.250  INFO Eve
+			--- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 3047 ms
+2019-11-07 16:56:02.130  INFO Eve
+			--- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2019-11-07 16:56:02.144  INFO Eve
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-11-07 16:56:02.146  INFO Eve
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-11-07 16:56:02.468  INFO Eve
+			--- [ment.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-11-07 16:56:02.483  INFO Eve
+			--- [ment.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-07 16:56:02.576  INFO Eve
+			--- [ment.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2019-11-07 16:56:02.581  INFO Eve
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2019-11-07 16:56:02.586  INFO Eve
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2019-11-07 16:56:02.848  INFO Eve
+			--- [ment.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2019-11-07 16:56:04.282  INFO Eve
+			--- [ment.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-07 16:56:04.577  INFO Eve
+			--- [ment.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2019-11-07 16:56:05.109  INFO Eve
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2019-11-07 16:56:07.239  INFO Eve
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2019-11-07 16:56:07.927  INFO Eve
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@21ee182a: startup date [Thu Nov 07 16:55:58 MST 2019]; root of context hierarchy
+2019-11-07 16:56:08.024  INFO Eve
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ltanner.inventoryManagement.controller.CustomerController.createCustomer(com.ltanner.inventoryManagement.entity.Customer,java.lang.Long)
+2019-11-07 16:56:08.034  INFO Eve
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ltanner.inventoryManagement.controller.CustomerController.getCustomers()
+2019-11-07 16:56:08.036  INFO Eve
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ltanner.inventoryManagement.controller.CustomerController.deleteCustomer(java.lang.Long)
+2019-11-07 16:56:08.041  INFO Eve
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ltanner.inventoryManagement.controller.CustomerController.updateCustomer(com.ltanner.inventoryManagement.entity.Customer,java.lang.Long)
+2019-11-07 16:56:08.043  INFO Eve
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ltanner.inventoryManagement.controller.CustomerController.getCustomer(java.lang.Long)
+2019-11-07 16:56:08.046  INFO Eve
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ltanner.inventoryManagement.controller.OrderController.createCustomer(java.util.Set<java.lang.Long>,java.lang.Long)
+2019-11-07 16:56:08.055  INFO Eve
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders/{orderId}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ltanner.inventoryManagement.controller.OrderController.updateOrder(com.ltanner.inventoryManagement.entity.Order,java.lang.Long)
+2019-11-07 16:56:08.058  INFO Eve
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ltanner.inventoryManagement.controller.ProductController.getProducts()
+2019-11-07 16:56:08.060  INFO Eve
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ltanner.inventoryManagement.controller.ProductController.deleteProduct(java.lang.Long)
+2019-11-07 16:56:08.064  INFO Eve
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ltanner.inventoryManagement.controller.ProductController.createProduct(com.ltanner.inventoryManagement.entity.Product)
+2019-11-07 16:56:08.072  INFO Eve
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ltanner.inventoryManagement.controller.ProductController.updateProduct(com.ltanner.inventoryManagement.entity.Product,java.lang.Long)
+2019-11-07 16:56:08.075  INFO Eve
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-11-07 16:56:08.083  INFO Eve
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2019-11-07 16:56:08.127  INFO Eve
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-07 16:56:08.132  INFO Eve
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-07 16:56:08.187  INFO Eve
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-07 16:56:08.388  INFO Eve
+			--- [ment.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-11-07 16:56:08.440  INFO Eve
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-07 16:56:08.454  INFO Eve
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2019-11-07 16:56:08.474  INFO Eve
+			--- [ment.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2019-11-07 16:56:08.837  INFO Eve
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2019-11-07 16:56:08.841  INFO Eve
+			--- [ment.App.main()] c.l.i.App                                : Started App in 10.942 seconds (JVM running for 15.388)
+2019-11-07 16:57:48.802  INFO Eve
+			--- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-11-07 16:57:48.809  INFO Eve
+			--- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2019-11-07 16:57:48.852  INFO Eve
+			--- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 41 ms
+2019-11-07 17:00:05.288  WARN Eve
+			--- [nio-8080-exec-7] o.s.w.s.PageNotFound                     : Request method 'GET' not supported
+2019-11-07 17:10:24.427  INFO Eve
+			--- [       Thread-2] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@21ee182a: startup date [Thu Nov 07 16:55:58 MST 2019]; root of context hierarchy

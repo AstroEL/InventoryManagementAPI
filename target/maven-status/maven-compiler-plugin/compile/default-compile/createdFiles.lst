@@ -1,0 +1,17 @@
+com\ltanner\inventoryManagement\repository\ProductRepository.class
+com\ltanner\inventoryManagement\App.class
+com\ltanner\inventoryManagement\controller\ProductController.class
+com\ltanner\inventoryManagement\service\OrderService.class
+com\ltanner\inventoryManagement\util\MembershipLevel.class
+com\ltanner\inventoryManagement\entity\Customer.class
+com\ltanner\inventoryManagement\util\OrderStatus.class
+com\ltanner\inventoryManagement\service\ProductService.class
+com\ltanner\inventoryManagement\repository\CustomerRepository.class
+com\ltanner\inventoryManagement\controller\CustomerController.class
+com\ltanner\inventoryManagement\entity\Product.class
+com\ltanner\inventoryManagement\service\CustomerService.class
+com\ltanner\inventoryManagement\controller\OrderController.class
+com\ltanner\inventoryManagement\repository\OrderRepository.class
+com\ltanner\inventoryManagement\entity\Order.class
+com\ltanner\inventoryManagement\repository\AddressRepository.class
+com\ltanner\inventoryManagement\entity\Address.class
